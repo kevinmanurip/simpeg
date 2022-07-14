@@ -63,6 +63,7 @@
 	<div class="alert alert-block">
 	  <button type="button" class="close" data-dismiss="alert">×</button>
 	  	<h4>Terjadi Kesalahan!</h4>
+      <p>Di sini terjadi kesalahan</p>
 		<?php echo $this->session->flashdata('result_login'); ?>
 	</div>
 	<?php } ?>
